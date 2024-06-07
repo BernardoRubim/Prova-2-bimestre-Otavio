@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #662400;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a primeira tabela */
+#formulario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #662400; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    border: 1px solid #662400; 
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #662400; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para a segunda tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px; 
+    overflow: hidden; 
+    border: 1px solid #ddd; 
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #006663;
+    color: white;
+}
+
+/* Estilo para as linhas da tabela */
+table tr {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #00B3AD;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #00B3AD;
+}
